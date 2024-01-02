@@ -91,11 +91,29 @@ button:hover,
     color: #eee; 
 }
 
-i {
-    font-size: 40px;
-    margin-left: 85%;
-    color: #eee; 
+
+.buy-me-coffee {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 24px;
+  color: #F9A825;
+  text-decoration: none;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #C17900;
+  display: flex;
+  justify-content: center;
+  align-items: center
 }
+
+i{
+  font-size: 40px;
+  color: #2b8c1b 
+;
+}
+
 
 @media screen and (max-width: 768px) {
     #welcome-container,

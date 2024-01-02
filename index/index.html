@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Mania</title>
+	<link rel="stylesheet" href="style.css">
+
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div id="welcome-container">
+        <h1>Welcome to Quiz Mania!</h1>
+        <p>Select your level:</p>
+        <button id="easy-btn">Easy</button>
+        <button id="medium-btn">Medium</button>
+        <button id="hard-btn">Hard</button>
+    </div>
+
+    <div id="quiz-container" style="display: none;">
+        <h1>Quiz Mania - <span id="level"></span> Level</h1>
+        <div id="question"></div>
+        <div id="options" class="options">
+           
+        </div>
+        <button id="submit-btn">Submit</button>
+        <p id="score">Your Score: 0</p>
+    </div>
+	<div class="square">
+		There are 15 questions in each level, so Best of luck!
+
+	</div>
+
+    <script src="scriptt.js"></script>
+</body>
+</html>
